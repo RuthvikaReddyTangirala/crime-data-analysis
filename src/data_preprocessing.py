@@ -140,12 +140,14 @@ df['Crm Cd 1'] = df['Crm Cd 1'].astype(int)
 
 print("Data types after conversion: \n", df.dtypes) # Converted datatypes
 
+df.to_csv("data\data_preprocessing.csv")
+
 df_encoded= pd.get_dummies(df, columns=['Vict Descent','Status','Vict Sex']) #Encoding the categorical variables
 
 print("Displaying the new dataset with encoded categorical variables")
 print(df_encoded.head()) #displaying the new dataset with encoded categorical variables
 
-df_encoded.to_csv("data\data_preprocessing.csv")
+df_encoded.to_csv("data\data_preprocessing_encoded.csv")
 
 print("Data Preprocessing completed")
 # #### Encoding
