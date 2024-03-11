@@ -50,8 +50,11 @@ I welcome contributions to the Crime Data Analysis project! If you're interested
 
 Fork the repository.
 Create a new branch for your feature (git checkout -b feature/AmazingFeature).
+
 Commit your changes (git commit -m 'Add some AmazingFeature').
+
 Push to the branch (git push origin feature/AmazingFeature).
+
 Open a pull request.
 
 ### Contact
